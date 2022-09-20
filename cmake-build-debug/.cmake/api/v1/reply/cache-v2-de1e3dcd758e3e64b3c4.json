@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Programming/C/Calculator/Calculator-in-C/cmake-build-debug"
+			"value" : "d:/Programming/C/Calculator-in-C/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Programming/C/Calculator/Calculator-in-C"
+			"value" : "D:/Programming/C/Calculator-in-C"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Programming/C/Calculator/Calculator-in-C/cmake-build-debug"
+			"value" : "D:/Programming/C/Calculator-in-C/cmake-build-debug"
 		},
 		{
 			"name" : "Calculator_in_C_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Programming/C/Calculator/Calculator-in-C"
+			"value" : "D:/Programming/C/Calculator-in-C"
 		}
 	],
 	"kind" : "cache",

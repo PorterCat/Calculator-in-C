@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "--coverage -g"
 				},
 				{
 					"fragment" : "-std=gnu11"
@@ -55,7 +55,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/Programming/C/Calculator/Calculator-in-C/."
+					"path" : "D:/Programming/C/Calculator-in-C/."
 				}
 			],
 			"language" : "C",
@@ -79,7 +79,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "--coverage -g",
 				"role" : "flags"
 			},
 			{

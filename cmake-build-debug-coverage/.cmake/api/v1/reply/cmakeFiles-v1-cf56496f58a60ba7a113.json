@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake"
+			"path" : "cmake-build-debug-coverage/CMakeFiles/3.23.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -265,7 +265,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake"
+			"path" : "cmake-build-debug-coverage/CMakeFiles/3.23.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -339,7 +339,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake"
+			"path" : "cmake-build-debug-coverage/CMakeFiles/3.23.2/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -418,7 +418,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake"
+			"path" : "cmake-build-debug-coverage/CMakeFiles/3.23.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -429,8 +429,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Programming/C/Calculator/Calculator-in-C/cmake-build-debug",
-		"source" : "D:/Programming/C/Calculator/Calculator-in-C"
+		"build" : "D:/Programming/C/Calculator-in-C/cmake-build-debug-coverage",
+		"source" : "D:/Programming/C/Calculator-in-C"
 	},
 	"version" : 
 	{

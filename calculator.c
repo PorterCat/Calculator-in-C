@@ -1,26 +1,35 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<windows.h>
 
-int main() 
+#define STACK_MAX_SIZE 20
+
+int peekchar(void); //signature cin.peek() in C++
+void cpush(int ,int);
+
+int main()
 {
-	WNDCLASSA wcl;
-		memset(&wcl, 0, sizeof(WNDCLASSA) );
-		wcl.lpszClassName = "my Window";
-		wcl.lpfnWndProc = DefWindowProcA;
+    char ch;
+    ch = peekchar();
+    printf("%c", ch);
+
+}
+
+int peekchar(void) //semantic
+{
+    int c = getchar();
+    if (c != EOF) ungetc(c, stdin);  /* puts it back */
+    return c;
+}
+
+typedef int T;
+typedef struct Stack_tag
+{
+    T data[STACK_MAX_SIZE];
+    size_t size;
+} Stack_t;
 
 
-	RegisterClassA(&wcl);
-
-	HWND hwnd;
-	hwnd = CreateWindow("my Window", "Window Name", WS_OVERLAPPEDWINDOW, 10, 10, 640, 480, NULL, NULL, NULL, NULL);
-
-	ShowWindow(hwnd, SW_SHOWNORMAL);
-	while (1)
-	{
-
-	}
-
-	return 0;
-
+void cpush(Stack_t*stack, const T value)
+{
+    stack->data[stack->size] = value;
+    stack->size++;
 }
