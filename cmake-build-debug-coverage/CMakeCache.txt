@@ -216,6 +216,15 @@ Calculator_in_C_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Calculator_in_C_SOURCE_DIR:STATIC=D:/Programming/C/Calculator-in-C
 
+//Value Computed by CMake
+ctek.c_BINARY_DIR:STATIC=D:/Programming/C/Calculator-in-C/cmake-build-debug-coverage
+
+//Value Computed by CMake
+ctek.c_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+ctek.c_SOURCE_DIR:STATIC=D:/Programming/C/Calculator-in-C
+
 
 ########################
 # INTERNAL cache entries

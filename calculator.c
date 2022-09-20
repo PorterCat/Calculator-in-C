@@ -1,9 +1,9 @@
 #include<stdio.h>
+#include <stek_c.c>
 
-#define STACK_MAX_SIZE 20
 
 int peekchar(void); //signature cin.peek() in C++
-void cpush(int ,int);
+
 
 int main()
 {
@@ -11,7 +11,13 @@ int main()
     ch = peekchar();
     printf("%c", ch);
 
+    Stack_new stack;
+    push(&stack, 3);
+
+
 }
+
+
 
 int peekchar(void) //semantic
 {
@@ -20,16 +26,3 @@ int peekchar(void) //semantic
     return c;
 }
 
-typedef int T;
-typedef struct Stack_tag
-{
-    T data[STACK_MAX_SIZE];
-    size_t size;
-} Stack_t;
-
-
-void cpush(Stack_t*stack, const T value)
-{
-    stack->data[stack->size] = value;
-    stack->size++;
-}

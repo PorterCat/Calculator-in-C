@@ -1,0 +1,94 @@
+        -:    0:Source:D:/Programming/C/Calculator-in-C/stek_c.c
+        -:    0:Graph:D:\Programming\C\Calculator-in-C\cmake-build-debug-coverage\CMakeFiles\Calculator_in_C.dir\calculator.c.gcno
+        -:    0:Data:D:\Programming\C\Calculator-in-C\cmake-build-debug-coverage\CMakeFiles\Calculator_in_C.dir\calculator.c.gcda
+        -:    0:Runs:1
+        -:    0:Source is newer than graph
+        -:    1:#include<stdio.h>
+        -:    2:
+        -:    3:#include<stdlib.h>
+        -:    4:
+        -:    5:#define Size 20
+        -:    6:
+        -:    7:int Top=-1, inp_array[Size];
+        -:    8:typedef int T;
+function Push called 0 returned 0% blocks executed 0%
+    #####:    9:
+        -:   10:typedef struct Stack_tag {
+        -:   11:    int inp_array[Size];
+        -:   12:    size_t size;
+    #####:   13:} Stack_new;
+    %%%%%:   13-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   14:
+    #####:   15:void push()
+    %%%%%:   15-block  0
+call    0 never executed
+        -:   16:{
+        -:   17:    int x;
+        -:   18:
+    #####:   19:    if(Top==Size-1)
+    %%%%%:   19-block  0
+call    0 never executed
+    #####:   20:    {
+call    0 never executed
+    #####:   21:        printf("\nOverflow!!");
+    #####:   22:    }
+        -:   23:    else
+    #####:   24:    {
+        -:   25:        printf("\nEnter element to be inserted to the stack:");
+function Pop called 0 returned 0% blocks executed 0%
+    #####:   26:        scanf("%d",&x);
+        -:   27:        Top=Top+1;
+    #####:   28:        inp_array[Top]=x;
+    %%%%%:   28-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   29:    }
+    #####:   30:}
+    %%%%%:   30-block  0
+call    0 never executed
+        -:   31:
+        -:   32:void pop()
+        -:   33:{
+    #####:   34:    if(Top==-1)
+    %%%%%:   34-block  0
+call    0 never executed
+    #####:   35:    {
+        -:   36:        printf("\nUnderflow!!");
+    #####:   37:    }
+        -:   38:    else
+function show called 0 returned 0% blocks executed 0%
+    #####:   39:    {
+        -:   40:        printf("\nPopped element:  %d",inp_array[Top]);
+        -:   41:        Top=Top-1;
+        -:   42:    }
+    #####:   43:}
+    %%%%%:   43-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   44:
+    #####:   45:void show()
+    %%%%%:   45-block  0
+call    0 never executed
+        -:   46:{
+        -:   47:
+        -:   48:
+    #####:   49:    if(Top==-1)
+    %%%%%:   49-block  0
+call    0 never executed
+    #####:   50:    {
+    %%%%%:   50-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   51:        printf("\nUnderflow!!");
+    %%%%%:   51-block  0
+call    0 never executed
+        -:   52:    }
+    #####:   53:    else
+        -:   54:    {
+        -:   55:        printf("\nElements present in the stack: \n");
+        -:   56:        for(int i=Top;i>=0;--i)
+        -:   57:            printf("%d\n",inp_array[i]);
+        -:   58:    }
+        -:   59:}
