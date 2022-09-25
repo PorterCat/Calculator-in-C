@@ -1,16 +1,1 @@
-"D:\Programs\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programs/CLion 2022.2.1/bin/ninja/win/ninja.exe" -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G Ninja -S D:\Programming\C\Calculator-in-C -B D:\Programming\C\Calculator-in-C\cmake-build-debug-coverage
--- The C compiler identification is GNU 11.2.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/Programs/CLion 2022.2.1/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_FLAGS
-
-
--- Build files have been written to: D:/Programming/C/Calculator-in-C/cmake-build-debug-coverage
+CMakeLists.txt not found in D:\Programming\C\Calculator-in-C Select CMakeLists.txt

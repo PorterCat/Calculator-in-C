@@ -1,3 +1,0 @@
-D:/Programming/C/Calculator-in-C/cmake-build-debug/CMakeFiles/Calculator_in_C.dir
-D:/Programming/C/Calculator-in-C/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Programming/C/Calculator-in-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

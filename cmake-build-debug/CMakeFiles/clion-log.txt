@@ -1,4 +1,1 @@
-"D:\Programs\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programs/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S D:\Programming\C\Calculator-in-C -B D:\Programming\C\Calculator-in-C\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: D:/Programming/C/Calculator-in-C/cmake-build-debug
+CMakeLists.txt not found in D:\Programming\C\Calculator-in-C Select CMakeLists.txt
